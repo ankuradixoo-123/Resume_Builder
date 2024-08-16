@@ -76,3 +76,26 @@ button:hover {
   display: block;
   margin: 10px 0;
 }
+/* Add PDF-specific styles */
+#resume-template {
+  max-width: 800px; /* Define a max-width for better PDF layout */
+  margin: 0 auto; /* Center the content */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd; /* Add a border for clarity */
+  border-radius: 5px;
+}
+
+#resume-template h1,
+#resume-template h2 {
+  color: #333;
+}
+
+#resume-template p {
+  margin: 5px 0;
+}
+
+#resume-template div {
+  margin-bottom: 15px;
+}
+
